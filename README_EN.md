@@ -2,15 +2,7 @@
 
 [简体中文](./README.md) | English
 
-A Dockerized version of [LongPort MCP](https://github.com/longportapp/openapi/tree/main/mcp), a [MCP](https://modelcontextprotocol.io/introduction) server implementation for [LongPort OpenAPI](https://open.longportapp.com) that provides real-time stock market data, and enables AI access to analysis and trading capabilities. This Docker version runs as an SSE (Server-Sent Events) HTTP server, suitable for MCP integration in AI development platforms.
-
----
-
-## ✨ Features
-
-- **Trading** - Create, amend, cancel orders, query today's/past orders and transaction details
-- **Quotes** - Real-time quotes, acquisition of historical quotes
-- **Portfolio** - Real-time query of account assets, positions, and funds
+A Dockerized version of [LongPort MCP](https://github.com/longportapp/openapi/tree/main/mcp), running as a Streamable HTTP Server, suitable for MCP integration in AI development platforms.
 
 ---
 
