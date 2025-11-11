@@ -2,7 +2,15 @@
 
 简体中文 | [English](./README_EN.md)
 
-[LongPort MCP](https://github.com/longportapp/openapi/tree/main/mcp) 的 Docker 化版本，以Streamable HTTP Server方式运行，可用于AI开发平台的MCP接入。
+[LongPort MCP](https://github.com/longportapp/openapi/tree/main/mcp) 的 Docker 化版本，这是一个 [MCP](https://modelcontextprotocol.io/introduction) 服务器实现，为 [LongPort OpenAPI](https://open.longportapp.com) 提供实时股票市场数据，使 AI 能够访问分析和交易功能。此 Docker 版本以 SSE（服务器发送事件）HTTP 服务器方式运行，适用于 AI 开发平台的 MCP 集成。
+
+---
+
+## ✨ 功能特性
+
+- **交易** - 创建、修改、取消订单，查询今日/历史订单和交易详情
+- **行情** - 实时行情、获取历史行情
+- **持仓** - 实时查询账户资产、持仓和资金
 
 ---
 
