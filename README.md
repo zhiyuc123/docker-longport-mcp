@@ -1,5 +1,7 @@
 # 🐳 docker-longport-mcp
 
+简体中文 | [English](./README_EN.md)
+
 [LongPort MCP](https://github.com/longportapp/openapi/tree/main/mcp) 的 Docker 化版本，以Streamable HTTP Server方式运行，可用于AI开发平台的MCP接入。
 
 ---
